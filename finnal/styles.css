@@ -1,0 +1,32 @@
+@charset "utf-8";
+@import url("style.css");
+.pagebox{margin-left: 15%;
+width: 70%;
+background-color: white;}
+h1{font-size: 60px;}
+ul{list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: yellow;}
+li{float: left;}
+li a{display: block;
+color:#C3073F;
+text-align: center;
+padding: 14px;
+text-decoration: none;
+font-family: "Helvetica";
+font-weight: bold;}
+li a:hover:not(.active){background-color: #C5C6C7;
+color:white;}
+.active{background-color: red;
+color: white;}
+footer{text-align: center;
+font-style: italic;}
+body{background-image: url("images/red.jpg");color: red}
+header h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
